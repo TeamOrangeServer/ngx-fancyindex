@@ -5,9 +5,12 @@ static const u_char t01_head1[] = ""
 "<head>"
 "<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">"
 "<meta name=\"viewport\" content=\"width=device-width\">"
+"<script type=\"text/javascript\" src=\"https://repo2.akirin.xyz/assets/js/loading.js\"></script>"
+"<link type=\"text/css\" rel=\"stylesheet\" href=\"https://repo2.akirin.xyz/assets/css/style.css\" media=\"screen,projection\">"
+"<link type=\"text/css\" rel=\"stylesheet\" href=\"https://repo2.akirin.xyz/assets/css/loading.css\" media=\"screen,projection\">"
 "<script type=\"text/javascript\" src=\"https://repo2.akirin.xyz/assets/js/materialize.min.js\"></script>"
-"<link type=\"text/css\" rel=\"stylesheet\" href=\"https://repo2.akirin.xyz/assets/css/materialize.css\"  media=\"screen,projection\">"
-/* TODO:　リンク変更 */
+"<link type=\"text/css\" rel=\"stylesheet\" href=\"https://repo2.akirin.xyz/assets/css/materialize.css\" media=\"screen,projection\">"
+/* TODO: リンク変更 */
 "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://oocp.dip.jp/launcher/css/style.css\">"
 "\n"
 ;
@@ -22,6 +25,9 @@ static const u_char t03_head3[] = ""
 ;
 static const u_char t04_body1[] = ""
 "<body>"
+"<div id=\"loading\">"
+
+"</div>"
 "<div class=\"row center\">"
 "<h5 class=\"header col s12 light\">ファイル一覧: "
 ;
